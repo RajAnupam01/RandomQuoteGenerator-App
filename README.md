@@ -4,7 +4,7 @@ A simple React Native app that displays a random motivational quote when the use
 
 
 ## ✨ Features
-- Generates a random quote from a predefined list
+- Retrieves a random quote from a public API
 - Clean card-style UI
 - Safe area support for modern devices
 - Built with TypeScript
@@ -15,13 +15,10 @@ A simple React Native app that displays a random motivational quote when the use
 - TypeScript
 
 ## 🎮 How It Works
-- Quotes are stored locally in an array of objects
+- Quotes are fetched dynamically from an external API
 - App starts with a placeholder message
-- Press Generate Quote to see a random quote appear
-- Math.random() is used to select a quote
-
-## Purpose
-Made this project is for practicing the concepts and didn't used any external API. Quotes are stored locally in an array of objects.
+- Press Generate Quote to fetch and display a new motivational quote
+- Uses fetch to call the API and update the UI
 
 
 ## Run the project
@@ -30,4 +27,7 @@ npm install
 npx expo start
 ```
 Open using Expo Go or an emulator.
+
+### 👨‍💻 Author
+Built while learning React Native and API integration.
 
